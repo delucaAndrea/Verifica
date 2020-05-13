@@ -14,7 +14,7 @@ public class DeLucaClass {
  */
 	public float DeLucaMet(int b, int e) {
 		int val1=1;
-		for (int i=1;i<e;i++) {//nel for bisogna inserire "e" al posto di "b" 
+		for (int i=1;i<=b;i++) {//nel for bisogna inserire "e" al posto di "b" 
 								//inoltre bisogna inserire i<e e non i<=e
 			val1=val1*b;
 		}
